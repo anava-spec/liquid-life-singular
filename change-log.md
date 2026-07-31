@@ -1,0 +1,72 @@
+# Changelog
+
+<!--
+This file lives at change-log.md in the liquid-life-singular repo.
+
+Instructions for appending a new entry (future sessions read this):
+1. Find or create the section for the current work week: "## Week of <Mon>–<Fri>, <Year>"
+   Weeks run Monday through Friday only — weekends are excluded from the range (a change made
+   on a Saturday/Sunday still gets folded into that same Mon–Fri section, it just doesn't
+   extend the displayed date range).
+2. Add one bullet per client-visible change, plain language, no file paths or internal IDs.
+3. Do NOT add repo-organization, refactor-only, or internal-naming changes — see the
+   github-changelog skill's client-facing rules (exclude internal architecture, field/table
+   IDs, debugging narrative; include only what a client would notice or asked for).
+4. Newest week goes at the top, directly under the title.
+-->
+
+## Week of Jul 27–31, 2026
+
+- Fixed a clipboard copy error that could happen when copying contact info from within Airtable.
+- Task Tracker rows now show contact info (with one-click copy buttons) and a clickable link to the linked deal.
+- Contacts now show the real date and time a contact came in, instead of the date the bulk import ran — visible in the Contacts list, on the Contact detail page, and on the linked Deal's detail page.
+- Dates and times across the CRM now include the timezone.
+- You can now click a contact from within a deal to open that contact's full detail page directly, without leaving the deal.
+- The contact submission form's notes field is now labeled "Additional Information," and you can add your own private "Internal Notes" on a contact, separate from what came in on the form.
+- You can now delete a deal, from either the deal popup or the full deal page, with a confirmation warning before it's removed.
+- Contact, deal, and team-member search results and pickers are now sorted alphabetically.
+- Fixed the Kanban card's "Next task" indicator sometimes showing an outdated task instead of the soonest upcoming one. Task Tracker rows are now sorted newest to oldest.
+- You can now edit a deal's Close Date and Signed Rental Date directly from the Kanban card, without opening the full record.
+- The Contacts list "Created" column header is now clickable to sort newest/oldest; the Deal Kanban board has a new toolbar toggle to sort each column by Est. Close Date.
+- Deleting a contact is now much faster to see reflected in the list, while still giving you a few seconds to undo before it's gone for good.
+- Removed the "Direction" field from the Log a Call form — it's no longer asked for when logging a call.
+- Contacts and deals now show a Units section (below Deals on the Contact page, after Contacts on the Deal page) listing any unit tied to their linked deals, with a detail view for Unit Code, Parcel Unit, Complex, and Contract Status.
+- A Unit can now be linked to more than one deal — the Unit picker on the Deal page no longer hides units already assigned elsewhere.
+- The Deal popup now also shows the Units section, matching the full deal page.
+
+## Week of Jul 20–24, 2026
+
+- Deal popup now requires a Close Lost reason and shows the Closed Won checklist, matching the full deal page.
+- A deal's Unit field now locks or unlocks automatically based on whether a Parcel is linked and a matching unit exists; the "Create Unit" button disappears once a unit is linked.
+- Fixed older deals getting permanently stuck with a locked Unit field.
+- Unit search now explains when nothing matches and offers to fix the search or create a new unit.
+- Deals search now shows a dropdown of matching results instead of filtering the whole board.
+- Task detail no longer allows changing which deal a task is linked to.
+- Added CSV/PDF export for an audience's contact list in the Direct Mail Tracker.
+- Added a Unit Information popup, and contact email/phone can now be copied with one click.
+
+## Week of Jul 13–17, 2026
+
+- Opening a deal from Contacts now shows the full deal page instead of a small popup.
+- Added a "next task" indicator on deals, drag-and-drop on the Kanban board, a reason field for Closed Lost deals, a filter by contact type, inline task editing, and the ability to log a call directly on a deal.
+- Contact detail page now includes a Tasks section, a Call Log section, and shows Contact Type.
+- Tasks created from a call are now marked with an icon, can be filtered, and link back to the original call.
+- Task detail's "Open Contact" and "Open Deal" links are now fully functional.
+- Deal name is now editable directly from its popup or full page.
+- Added a "+ New Deal" button to a Contact's Deals section, so you can create a deal without leaving the contact.
+- Date fields now open a calendar picker when clicked, instead of requiring manual typing.
+- Deal/Contact pickers in Tasks are now searchable.
+- Parcels can now be searched by Unit Code.
+- Campaign and Close Lost Reason options now reflect what's actually configured instead of a fixed list; fixed a gap where Contacts handled Close Lost differently than Deals.
+- Deal and Contact popups widened for readability; added a shortcut to open the full Kanban page; fixed a date-rollover bug and a layering bug where deal/contact views could render behind each other.
+
+## Week of Jul 6–10, 2026
+
+- Contact info fields are now editable directly, saving automatically as you type.
+- Fixed a bug where due dates weren't displaying correctly in Tasks, and a bug that could fail to save a contact's name.
+- Fixed an issue where some task updates were failing silently with no error shown.
+- Clicking a linked Contact or Deal now opens a quick view in place, instead of navigating away from what you were doing.
+- Fixed a layout bug where nested Contact/Deal views could render behind each other; standardized the "create task" form.
+- Clearer status descriptions and warning messages when a Contact or Deal is missing.
+- Added the ability to delete a Contact, with an undo option (with a grace period so you don't lose it by accident); acquisition-only records are now hidden from the main views.
+- Task creation from a Deal now shows a clear error message if something goes wrong, instead of failing silently.
