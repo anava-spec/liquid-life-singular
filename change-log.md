@@ -15,6 +15,11 @@ Instructions for appending a new entry (future sessions read this):
 4. Newest week goes at the top, directly under the title.
 -->
 
+## Week of Aug 3–7, 2026
+
+- Each Campaign option now shows its mailed date on the right, sorted newest to oldest instead of alphabetically.
+- In Log a Call, Call Type is now optional — only Outcome is required.
+
 ## Week of Jul 27–31, 2026
 
 - Fixed a clipboard copy error that could happen when copying contact info from within Airtable.
