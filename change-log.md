@@ -22,6 +22,7 @@ Instructions for appending a new entry (future sessions read this):
 - You can now delete a campaign from the Direct Mail Tracker, with a confirmation warning if it has deals linked to it.
 - The Campaign picker on a Deal now finds a campaign by its mailed date typed any way you'd naturally write it (e.g. "7/10", "july 2026", "jul 10"), not just an exact match on how the date is displayed.
 - Contacts now have an optional "Preferred Name" field, separate from the legal name — available on the contact's detail page and on the New Lead intake form.
+- Tasks now show soonest-due-first, consistently, in a deal card's quick-preview popup and in the Contact detail page — previously unsorted in both places.
 - Show the mailed date next to each campaign option in the dropdown.
 
 ## Week of Aug 3–7, 2026
