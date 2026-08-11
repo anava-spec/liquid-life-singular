@@ -20,6 +20,7 @@ Instructions for appending a new entry (future sessions read this):
 - New Deal now defaults the Deal Owner to whoever is creating it, instead of always defaulting to Albert Miles.
 - Who can be selected as a Deal Owner is now easy to manage — add or remove someone from the list without a code change.
 - You can now delete a campaign from the Direct Mail Tracker, with a confirmation warning if it has deals linked to it.
+- The Campaign picker on a Deal now finds a campaign by its mailed date typed any way you'd naturally write it (e.g. "7/10", "july 2026", "jul 10"), not just an exact match on how the date is displayed.
 
 ## Week of Aug 3–7, 2026
 
