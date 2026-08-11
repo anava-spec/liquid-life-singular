@@ -15,6 +15,12 @@ Instructions for appending a new entry (future sessions read this):
 4. Newest week goes at the top, directly under the title.
 -->
 
+## Week of Aug 10–14, 2026
+
+- New Deal now defaults the Deal Owner to whoever is creating it, instead of always defaulting to Albert Miles.
+- Who can be selected as a Deal Owner is now easy to manage — add or remove someone from the list without a code change.
+- You can now delete a campaign from the Direct Mail Tracker, with a confirmation warning if it has deals linked to it.
+
 ## Week of Aug 3–7, 2026
 
 - Each Campaign option now shows its mailed date on the right, sorted newest to oldest instead of alphabetically.
