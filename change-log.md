@@ -17,6 +17,7 @@ Instructions for appending a new entry (future sessions read this):
 
 ## Week of Aug 10–14, 2026
 
+- Fixed an issue in the Direct Mail Tracker where creating a new audience and filtering for "Houses" returned no results, even though the same filter worked fine in the data view. Audiences can now be filtered by property type correctly.
 - New Deal now defaults the Deal Owner to whoever is creating it, instead of always defaulting to Albert Miles.
 - Who can be selected as a Deal Owner is now easy to manage — add or remove someone from the list without a code change.
 - You can now delete a campaign from the Direct Mail Tracker, with a confirmation warning if it has deals linked to it.
