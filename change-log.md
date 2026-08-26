@@ -15,6 +15,12 @@ Instructions for appending a new entry (future sessions read this):
 4. Newest week goes at the top, directly under the title.
 -->
 
+## Week of Aug 24–28, 2026
+
+- On the main Tasks page, you can now mark a task complete right from its row — click the status chip and pick a new status, no need to open the task first. Marking a task Done smoothly slides the rows below it up instead of jumping.
+- The Status column now appears first in the Tasks page table.
+- Status chips (on the Tasks page, and inside Deal and Contact task lists) now always match the exact color set up for that status in Airtable, and always render at the same size so no status label ever wraps or looks different in size from another.
+
 ## Week of Aug 10–14, 2026
 
 - Fixed an issue in the Direct Mail Tracker where creating a new audience and filtering for "Houses" returned no results, even though the same filter worked fine in the data view. Audiences can now be filtered by property type correctly.
