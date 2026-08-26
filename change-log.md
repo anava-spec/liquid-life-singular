@@ -12,20 +12,22 @@ Instructions for appending a new entry (future sessions read this):
 3. Do NOT add repo-organization, refactor-only, or internal-naming changes — see the
    github-changelog skill's client-facing rules (exclude internal architecture, field/table
    IDs, debugging narrative; include only what a client would notice or asked for).
-4. Newest week goes at the top, directly under the title.
+4. Log the FINAL shipped state of a feature once it's done, not each mid-build iteration.
+   If a feature gets reworked multiple times in one session before the user is happy with it
+   (e.g. a chip's color/shape/sizing tweaked three times, a toggle changed from a slider to a
+   dropdown), write ONE bullet describing how it ended up, not one bullet per attempt. Never
+   add a bullet for a change that got superseded or reverted later in the same session — only
+   the client-visible end state belongs here. When updating an entry that's still mid-session
+   (not yet a settled feature), it's fine to edit/replace the existing bullet in place instead
+   of appending a new one.
+5. Newest week goes at the top, directly under the title.
 -->
 
 ## Week of Aug 24–28, 2026
 
-- On the main Tasks page, you can now mark a task complete right from its row — click the status chip and pick a new status, no need to open the task first. Marking a task Done smoothly slides the rows below it up instead of jumping.
-- The Status column now appears first in the Tasks page table.
-- Status chips (on the Tasks page, and inside Deal and Contact task lists) now always match the exact color set up for that status in Airtable, and always render at the same size so no status label ever wraps or looks different in size from another.
-- Status chips now match the same solid-fill look as the status tags you see in the Airtable base itself, instead of a faded tint.
-- You can now press Ctrl+Z (Cmd+Z on Mac) to undo your last status change.
-- Every color-coded label across Tasks, Deals, and Contacts — status, priority, call outcome, and unit contract status — now matches the exact color set up for that value in Airtable, everywhere it appears.
-- Adjusted those chips to a fully rounded pill shape, and each one now sizes itself to its own text (a short status like "Done" is shorter than "In Progress") instead of every chip being forced to the same length.
-- The Tasks page now has a List/Kanban toggle (a dropdown, defaulting to List, at the right of the toolbar) with a quick, smooth transition between the two. The List view adds a matching Due Status column and filter, and each task's due status now comes from one shared calculation, so both views always agree on which bucket a task is in.
-- In Kanban, a new "Group by" dropdown lets you split columns by Due Status (Overdue/Today/Upcoming) or by Status instead. When grouped by Status, you can now drag a task card between columns to change its status.
+- On the main Tasks page, you can now mark a task complete right from its row — click the status chip and pick a new status, no need to open the task first. The Status column now appears first in the table, and marking a task Done smoothly slides the rows below it up instead of jumping. You can also press Ctrl+Z (Cmd+Z on Mac) to undo your last status change.
+- Every color-coded label across Tasks, Deals, and Contacts — status, priority, call outcome, and unit contract status — now matches the exact color and solid-fill pill style set up for that value in Airtable, everywhere it appears, sized to its own text.
+- The Tasks page now has a List/Kanban toggle (a dropdown, defaulting to List, at the right of the toolbar, with a quick smooth transition between the two). The List view adds a matching Due Status column and filter. In Kanban, a "Group by" dropdown splits columns by Due Status (Overdue/Today/Upcoming) or by Status — grouped by Status, you can drag a task card between columns to change its status.
 
 ## Week of Aug 10–14, 2026
 
