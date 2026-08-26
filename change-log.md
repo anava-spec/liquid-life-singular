@@ -22,6 +22,7 @@ Instructions for appending a new entry (future sessions read this):
 - Status chips (on the Tasks page, and inside Deal and Contact task lists) now always match the exact color set up for that status in Airtable, and always render at the same size so no status label ever wraps or looks different in size from another.
 - Status chips now match the same solid-fill look as the status tags you see in the Airtable base itself, instead of a faded tint.
 - You can now press Ctrl+Z (Cmd+Z on Mac) to undo your last status change.
+- Every color-coded label across Tasks, Deals, and Contacts — status, priority, call outcome, and unit contract status — now matches the exact color set up for that value in Airtable, everywhere it appears.
 
 ## Week of Aug 10–14, 2026
 
