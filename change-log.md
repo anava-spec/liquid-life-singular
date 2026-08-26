@@ -24,7 +24,8 @@ Instructions for appending a new entry (future sessions read this):
 - You can now press Ctrl+Z (Cmd+Z on Mac) to undo your last status change.
 - Every color-coded label across Tasks, Deals, and Contacts — status, priority, call outcome, and unit contract status — now matches the exact color set up for that value in Airtable, everywhere it appears.
 - Adjusted those chips to a fully rounded pill shape, and each one now sizes itself to its own text (a short status like "Done" is shorter than "In Progress") instead of every chip being forced to the same length.
-- The Tasks page now has a List/Kanban toggle. Kanban splits tasks into three columns — Overdue, Today, Upcoming. The List view adds a matching Due Status column and filter, and each task's due status now comes from one shared calculation, so both views always agree on which bucket a task is in.
+- The Tasks page now has a List/Kanban toggle (a dropdown, defaulting to List, at the right of the toolbar) with a quick, smooth transition between the two. The List view adds a matching Due Status column and filter, and each task's due status now comes from one shared calculation, so both views always agree on which bucket a task is in.
+- In Kanban, a new "Group by" dropdown lets you split columns by Due Status (Overdue/Today/Upcoming) or by Status instead. When grouped by Status, you can now drag a task card between columns to change its status.
 
 ## Week of Aug 10–14, 2026
 
