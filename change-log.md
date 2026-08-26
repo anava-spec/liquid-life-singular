@@ -23,6 +23,7 @@ Instructions for appending a new entry (future sessions read this):
 - Status chips now match the same solid-fill look as the status tags you see in the Airtable base itself, instead of a faded tint.
 - You can now press Ctrl+Z (Cmd+Z on Mac) to undo your last status change.
 - Every color-coded label across Tasks, Deals, and Contacts — status, priority, call outcome, and unit contract status — now matches the exact color set up for that value in Airtable, everywhere it appears.
+- Adjusted those chips to a fully rounded pill shape, and each one now sizes itself to its own text (a short status like "Done" is shorter than "In Progress") instead of every chip being forced to the same length.
 
 ## Week of Aug 10–14, 2026
 
