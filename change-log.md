@@ -20,7 +20,8 @@ Instructions for appending a new entry (future sessions read this):
 - On the main Tasks page, you can now mark a task complete right from its row — click the status chip and pick a new status, no need to open the task first. Marking a task Done smoothly slides the rows below it up instead of jumping.
 - The Status column now appears first in the Tasks page table.
 - Status chips (on the Tasks page, and inside Deal and Contact task lists) now always match the exact color set up for that status in Airtable, and always render at the same size so no status label ever wraps or looks different in size from another.
-- Fixed status chip colors looking washed-out in light mode and off in dark mode — text and background contrast now adjust automatically for each theme.
+- Status chips now match the same solid-fill look as the status tags you see in the Airtable base itself, instead of a faded tint.
+- You can now press Ctrl+Z (Cmd+Z on Mac) to undo your last status change.
 
 ## Week of Aug 10–14, 2026
 
