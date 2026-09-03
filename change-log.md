@@ -23,6 +23,10 @@ Instructions for appending a new entry (future sessions read this):
 5. Newest week goes at the top, directly under the title.
 -->
 
+## Week of Aug 31–Sep 4, 2026
+
+- Fixed a Direct Mail Tracker bug where a campaign sent to more than one audience only counted the parcels from one of them toward its actual recipient count — the campaign's real reach was being undercounted. Every linked audience is now combined correctly (with shared parcels only counted once), and the fix has been applied retroactively to every existing campaign, so recipient counts across the board are now accurate.
+
 ## Week of Aug 24–28, 2026
 
 - On the main Tasks page, you can now mark a task complete right from its row — click the status chip and pick a new status, no need to open the task first. The Status column now appears first in the table, and marking a task Done smoothly slides the rows below it up instead of jumping. You can also press Ctrl+Z (Cmd+Z on Mac) to undo your last status change.
