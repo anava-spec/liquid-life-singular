@@ -23,6 +23,13 @@ Instructions for appending a new entry (future sessions read this):
 5. Newest week goes at the top, directly under the title.
 -->
 
+## Week of Sep 7–11, 2026
+
+- You can now delete a deal from the Kanban card's popup or the full deal page with the same short Undo window Contacts already had, instead of it being removed for good right away.
+- Added a "Log a Call" button directly on a task's own detail view and on the contact popup opened from a task, so a call can be logged without first opening the linked deal.
+- The Tasks list now opens by default filtered to Today & Overdue instead of showing the full backlog — pick another Due Status option, or clear the filter, to see everything.
+- The "Next task" indicator on a deal now shows a countdown — Today, Tomorrow, In 3 days, 2 days overdue — instead of just a date, so it's easier to tell what needs attention at a glance.
+
 ## Week of Aug 31–Sep 4, 2026
 
 - Fixed a Direct Mail Tracker bug where a campaign sent to more than one audience only counted the parcels from one of them toward its actual recipient count — the campaign's real reach was being undercounted. Every linked audience is now combined correctly (with shared parcels only counted once), and the fix has been applied retroactively to every existing campaign, so recipient counts across the board are now accurate.
