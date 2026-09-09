@@ -29,6 +29,8 @@ Instructions for appending a new entry (future sessions read this):
 - Added a "Log a Call" button directly on a task's own detail view and on the contact popup opened from a task, so a call can be logged without first opening the linked deal.
 - The Tasks list now opens by default filtered to Today & Overdue instead of showing the full backlog — pick another Due Status option, or clear the filter, to see everything.
 - The "Next task" indicator on a deal now shows a countdown — Today, Tomorrow, In 3 days, 2 days overdue — instead of just a date, so it's easier to tell what needs attention at a glance.
+- Reporting Dashboards can now compare up to 3 prior years against a chosen year side by side, using matching custom date ranges so the comparison is apples-to-apples.
+- Any breakdown on a Reporting Dashboard can now be exported to a CSV file with one click.
 
 ## Week of Aug 31–Sep 4, 2026
 
