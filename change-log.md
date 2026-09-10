@@ -31,6 +31,7 @@ Instructions for appending a new entry (future sessions read this):
 - The "Next task" indicator on a deal now shows a countdown — Today, Tomorrow, In 3 days, 2 days overdue — instead of just a date, so it's easier to tell what needs attention at a glance.
 - Reporting Dashboards can now compare up to 3 prior years against a chosen year side by side, using matching custom date ranges so the comparison is apples-to-apples.
 - Any breakdown on a Reporting Dashboard can now be exported to a CSV file with one click.
+- You can now edit the Close Lost Reason after a deal has already been closed lost — click the pencil next to it, pick the corrected reason, and confirm to save.
 
 ## Week of Aug 31–Sep 4, 2026
 
