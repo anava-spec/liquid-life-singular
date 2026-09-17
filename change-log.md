@@ -23,6 +23,10 @@ Instructions for appending a new entry (future sessions read this):
 5. Newest week goes at the top, directly under the title.
 -->
 
+## Week of Sep 14–18, 2026
+
+- Real Estate Transactions and acquisitions are now permanently excluded from every Reporting Dashboard chart and from the Contacts page, with no filter or toggle to bring them back.
+
 ## Week of Sep 7–11, 2026
 
 - You can now delete a deal from the Kanban card's popup or the full deal page with the same short Undo window Contacts already had, instead of it being removed for good right away.
