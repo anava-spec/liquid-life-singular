@@ -27,6 +27,7 @@ Instructions for appending a new entry (future sessions read this):
 
 - Real Estate Transactions and acquisitions are now permanently excluded from every Reporting Dashboard chart and from the Contacts page, with no filter or toggle to bring them back.
 - Fixed a date mismatch on the "New Units" charts (by Month, by Competitor, by Complex) where a small number of already-closed deals showed a close date further in the future than today, undercounting the current period when a date range was applied. Those charts now use each deal's actual signed rental date instead. 17 affected deals were also backfilled with their correct signed date, sourced from their matching contract record.
+- Removed the "Close Date" field from Deals, Tasks, and Contacts. This also removes the "Overdue" badge on a deal card and the Close Date sort button on the Deals Kanban board, since both depended on it.
 
 ## Week of Sep 7–11, 2026
 
